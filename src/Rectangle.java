@@ -46,6 +46,13 @@ public class Rectangle {
     public int calculateArea() {
         return width * length;
     }
+    void setterLen(int len){
+        length = len;
+    }
+
+    void setterWid(int wid){
+        width = wid;
+    }
 }
 
 
